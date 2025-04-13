@@ -1,12 +1,12 @@
 ## Sentiment Analyzing Bot
 
-[Node, Express and Watson](https://medium.com/@sueann.ioanis/creating-a-conversational-ai-slack-bot-843a9453128b)
+[Node and Express](https://medium.com/@sueann.ioanis/creating-a-conversational-ai-slack-bot-843a9453128b)
 
 Endpoint using Node - communicates with the messaging application and the tone analyzing service. 
 
 `npm install`
 
-`node server.js`
+`node server`
 
 #### Preview
 
