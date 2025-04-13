@@ -6,7 +6,7 @@ const app = express();
 const watson = require("watson-developer-cloud");
 
 const ID = "<@BOT_ID_GOES_HERE>";
-const OAUTH = "SLACK_OAUTH_TOKEN_GOES_HERE";
+const OAUTH = "AUTH_TOKEN_GOES_HERE";
 const THRESHOLD = 0.55;
 
 const CONFIG = {
@@ -94,9 +94,9 @@ const generateString = tonecategory => {
 const postMessage = (channel, message) => {
   let options = {
     method: "POST",
-    url: "https://slack.com/api/chat.postMessage",
+    url: "/chat.postMessage",
     form: {
-      token: OAUTH,
+      token: AUTH,
       channel,
       text: message
     }
