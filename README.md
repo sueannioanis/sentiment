@@ -1,4 +1,4 @@
-## Sentiment Analyzing Bot
+## Sentiment Analysis
 
 [Node and Express](https://medium.com/@sueann.ioanis/creating-a-conversational-ai-slack-bot-843a9453128b)
 
