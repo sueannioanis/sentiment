@@ -2,7 +2,7 @@
 
 [Node and Express](https://medium.com/@sueann.ioanis/creating-a-conversational-ai-slack-bot-843a9453128b)
 
-Endpoint using Node - communicates with the messaging application and the tone analysis service. 
+Endpoint - communicates with the messaging application and the tone analysis service. 
 
 `npm install`
 
